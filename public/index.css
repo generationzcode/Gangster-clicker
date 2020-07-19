@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  cursor: url(gun.png), auto;
+}
+*:active{
+  cursor: url(gun2.png), auto;
+}
+
+body{
+  font-family: "Roboto Mono";
+  background-color: #9e9e9e;
+  transition:background-color 0.5s;
+}
+body:hover{
+  background-color:#9e9e9e;
+}
+.intro-gang{
+  font-family: "Roboto Mono";
+  transition:background-color 0.5s;
+  padding:10px;
+}
+.intro-gang:hover{
+  background-color: #a0a0a8;
+}
+.start{
+  border:solid #131c96;
+  border-radius:2px;
+  color:white;
+  text-align: center;
+  padding:10px;
+  background-color:#3740bd;
+  font-size: 1.3rem;
+  height:60px;
+  width:200px;
+  transition: background-color 0.5s;
+}
+.start:hover{
+  background-color: #121cb0;
+}
+.start:focus{
+  background-color: #121cb0;
+}
+.start:active{
+  background-color: #a7acf2;
+}
+.start-container{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+.gangsters-container{
+display: flex;
+flex-direction:column;
+justify-content: center;
+}
+.gangsters-picture{
+  display: flex;
+  align-self: center;
+}
+.gangsters-stats-container{
+  display: flex;
+  padding:30px;
+  flex-direction:column;
+  align-self: center;
+}
+.gangsters-stats{
+  padding:5px;
+  margin:0px;
+}
+.gangsters-upgrade{
+  border:solid #009c46;
+  border-radius: 2px
+  width:400px;
+  height:70px;
+  background-color:#13ad60;
+  display:flex;
+  align-self:center;
+  font-family: "Roboto Mono";
+  font-size:1.4rem;
+}
+.gangsters-error{
+  color:#e65050;
+  font-family: "Roboto Mono";
+  background-color: #e99999;
+}
